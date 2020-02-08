@@ -1,0 +1,61 @@
+{
+"markers":[
+ {
+  "id":1,
+  "name":"rs1",
+  "chrom":"chr1",
+  "position":1
+ },
+ {
+  "id":2,
+  "name":"rs2",
+  "chrom":"chr1",
+  "position":2
+ },
+ {
+  "id":3,
+  "name":"rs3",
+  "chrom":"chr1",
+  "position":3
+ }
+ ],
+"samples":[
+ {
+  "id":1,
+  "name":"Individual1",
+  "father-id":2,
+  "mother-id":3,
+  "illness":true
+ },
+ {
+  "id":2,
+  "name":"Individual2",
+  "father-id":0,
+  "mother-id":0,
+  "illness":false
+ },
+ {
+  "id":3,
+  "name":"Individual3",
+  "father-id":0,
+  "mother-id":0,
+  "illness":true
+ }
+],
+"genotypes" : [
+
+ {
+  "sample":1,
+  "marker":2,
+  "allele-1":"A",
+  "allele-2":"T"
+ },
+ {
+  "sample":2,
+  "marker":2,
+  "allele-1":"A",
+  "allele-2":"T"
+ }
+
+]
+}
